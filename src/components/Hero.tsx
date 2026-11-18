@@ -131,7 +131,7 @@ export default function Hero() {
               alt={profile.name}
               fill
               sizes="(max-width: 1024px) 260px, 300px"
-              className="object-cover grayscale-[15%] contrast-105"
+              className="object-cover object-top grayscale-[15%] contrast-105"
               priority
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
