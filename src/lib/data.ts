@@ -8,6 +8,9 @@ export const profile = {
   linkedinLabel: "linkedin.com/in/yeabsera-abebe",
   finet: "https://finetai.vercel.com",
   finetLabel: "finetai.vercel.com",
+  email: "yeabseraabebe.yeab@gmail.com",
+  phone: "+251 991059570",
+  photo: "/images/yeabsera.jpg",
 };
 
 export const summary =

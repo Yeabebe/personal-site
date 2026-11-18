@@ -3,12 +3,9 @@
 import { motion } from "framer-motion";
 import SectionHeading from "./SectionHeading";
 import { profile } from "@/lib/data";
-import { Mail, ExternalLink } from "lucide-react";
+import { Mail, Phone, ExternalLink } from "lucide-react";
 import LinkedinIcon from "./icons/LinkedinIcon";
 import GithubIcon from "./icons/GithubIcon";
-
-// TODO: replace with your real email address.
-const EMAIL = "your.email@example.com";
 
 export default function Contact() {
   return (
@@ -30,12 +27,23 @@ export default function Contact() {
             conversation.
           </p>
 
+          <div className="mono-tag mt-6 flex flex-wrap gap-x-8 gap-y-2 text-sm text-green">
+            <span>{profile.email}</span>
+            <span>{profile.phone}</span>
+          </div>
+
           <div className="mt-8 flex flex-wrap gap-4">
             <a
-              href={`mailto:${EMAIL}`}
+              href={`mailto:${profile.email}`}
               className="inline-flex items-center gap-2 rounded-md bg-green text-[#06140d] font-semibold px-5 py-3 text-sm hover:bg-green-dim transition-colors"
             >
               <Mail size={16} /> Email me
+            </a>
+            <a
+              href={`tel:${profile.phone.replace(/\s+/g, "")}`}
+              className="inline-flex items-center gap-2 rounded-md border border-surface-border px-5 py-3 text-sm text-foreground hover:border-green-dim hover:text-green transition-colors"
+            >
+              <Phone size={16} /> {profile.phone}
             </a>
             <a
               href={profile.linkedin}
