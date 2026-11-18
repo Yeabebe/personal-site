@@ -6,8 +6,8 @@ export const profile = {
   githubLabel: "github.com/Yeabebe",
   linkedin: "https://www.linkedin.com/in/yeabsera-abebe-1a2535297/",
   linkedinLabel: "linkedin.com/in/yeabsera-abebe",
-  finet: "https://finetai.vercel.com",
-  finetLabel: "finetai.vercel.com",
+  finet: "https://finet-ai.vercel.app",
+  finetLabel: "finet-ai.vercel.app",
   email: "yeabseraabebe.yeab@gmail.com",
   phone: "+251 991059570",
   photo: "/images/yeabsera.jpg",
@@ -113,7 +113,7 @@ export const projects: Project[] = [
     description:
       "AI-powered financial intelligence platform combining market data, technical indicators (RSI, MACD, Bollinger Bands), machine learning, and LLM-based reasoning to generate market insights.",
     stack: ["Python", "FastAPI", "React", "LangChain", "Pandas", "Vercel"],
-    link: "https://finetai.vercel.com",
+    link: "https://finet-ai.vercel.app",
   },
   {
     title: "AI Video Generation Model",
