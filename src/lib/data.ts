@@ -4,7 +4,7 @@ export const profile = {
   location: "Addis Ababa, Ethiopia",
   github: "https://github.com/Yeabebe",
   githubLabel: "github.com/Yeabebe",
-  linkedin: "https://www.linkedin.com/in/yeabsera-abebe-1a2535297/",
+  linkedin: "https://www.linkedin.com/in/yeabsera-abebe-yeab/",
   linkedinLabel: "linkedin.com/in/yeabsera-abebe",
   finet: "https://finet-ai.vercel.app",
   finetLabel: "finet-ai.vercel.app",
